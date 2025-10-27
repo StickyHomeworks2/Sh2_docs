@@ -1,13 +1,7 @@
 ---
-title: 基本设置
-icon: ic:twotone-video-label
-author: ClassisBand
-isOriginal: true
-date: 2025-08-30T00:00:00.000Z
-createTime: 2025/10/26 23:24:40
-permalink: /guide/bottlptf/
+title: title
+createTime: 2025/10/27 23:28:52
 ---
-
 ### 开机自启
 
 开机后自动启动

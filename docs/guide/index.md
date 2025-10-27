@@ -1,13 +1,7 @@
 ---
-title: 你好！
-icon: ic:twotone-waving-hand
-author: ClassisBand
-isOriginal: true
-date: 2025-08-30T00:00:00.000Z
-createTime: 2025/10/26 23:24:40
-permalink: /guide/
+title: 欢迎
+createTime: 2025/10/27 23:28:52
 ---
-
 ### 欢迎来到StickyHomework2文档页面
 
 ::: important

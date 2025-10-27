@@ -7,12 +7,17 @@
 import { defineNavbarConfig } from 'vuepress-theme-plume'
 
 export default defineNavbarConfig([
-  { text: '首页', link: '/' },
-  { text: '博客', link: '/blog/' },
-  { text: '标签', link: '/blog/tags/' },
-  { text: '归档', link: '/blog/archives/' },
   {
-    text: '笔记',
-    items: [{ text: '示例', link: '/guide/README.md' }]
+    text: '指南',
+    icon: 'mi:book',
+    items: [
+      { text: '欢迎', icon: 'ion:hardware-chip-outline', link: '/guide/' },
+    ],
   },
+  {
+    text: '常见问题',
+    icon: 'mingcute:question-line',
+    link: '/faq/',
+  },
+  { text: '友链', icon: 'ic:round-people', link: '/friends' },
 ])

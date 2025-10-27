@@ -1,25 +1,33 @@
 {
-  "name": "sticky-homework-2",
+  "name": "stickyhomeworks-docs",
   "type": "module",
   "version": "1.0.0",
-  "description": "一款支持富文本的桌面作业贴工具",
+  "description": "",
+  "packageManager": "pnpm@10.18.3",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "esbuild"
+    ]
+  },
+  "author": "Jursin <jursin@126.com>",
   "license": "MIT",
+  "engines": {
+    "node": "^20.6.0 || >=22.0.0"
+  },
   "scripts": {
-    "docs:build": "vuepress build docs --clean-cache --clean-temp",
     "docs:dev": "vuepress dev docs",
     "docs:dev-clean": "vuepress dev docs --clean-cache --clean-temp",
+    "docs:build": "vuepress build docs --clean-cache --clean-temp",
     "docs:preview": "http-server docs/.vuepress/dist",
-    "vp-update": "npx vp-update"
+    "vp-update": "pnpm dlx vp-update"
   },
   "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.26",
+    "@vuepress/bundler-vite": "2.0.0-rc.24",
     "http-server": "^14.1.1",
     "typescript": "^5.9.3",
     "vue": "^3.5.22",
-    "vuepress": "2.0.0-rc.26",
-    "vuepress-theme-plume": "1.0.0-rc.174"
-  },
-  "engines": {
-    "node": "^20.6.0 || >=22.0.0"
+    "vuepress": "2.0.0-rc.24",
+    "vuepress-theme-plume": "1.0.0-rc.170"
   }
 }

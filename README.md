@@ -1,27 +1,27 @@
-# sticky-homework-2
+# StickyHomework-Docs
 
-The Site is generated using [vuepress](https://vuepress.vuejs.org/) and [vuepress-theme-plume](https://github.com/pengzhanbo/vuepress-theme-plume)
+这个网站使用 [vuepress](https://vuepress.vuejs.org/) 和 [vuepress-theme-plume](https://github.com/pengzhanbo/vuepress-theme-plume) 搭建
 
-## Install
-
-```sh
-npm i
-```
-
-## Usage
+## 安装
 
 ```sh
-# start dev server
-npm run docs:dev
-# build for production
-npm run docs:build
-# preview production build in local
-npm run docs:preview
-# update vuepress and theme
-npm run vp-update
+pnpm i
 ```
 
-## Documents
+## 使用
+
+```sh
+# 启动开发服务器
+pnpm docs:dev
+# 构建生产环境
+pnpm docs:build
+# 预览生产环境
+pnpm docs:preview
+# 更新 vuepress 和 theme
+pnpm vp-update
+```
+
+## 文档
 
 - [vuepress](https://vuepress.vuejs.org/)
 - [vuepress-theme-plume](https://theme-plume.vuejs.press/)

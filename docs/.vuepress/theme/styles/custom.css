@@ -1,13 +1,4 @@
-:root
-{     
-  --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: linear-gradient(120deg, var(--vp-c-purple-1) 30%, var(--vp-c-brand-2));
-  --vp-home-hero-tagline: var(--vp-c-text-2);
-  --vp-home-hero-text: var(--vp-c-text-1);
-  --vp-home-hero-image-background-image: linear-gradient(-45deg, var(--vp-c-brand-soft) 50%, var(--vp-c-brand-2) 50%);
-  --vp-home-hero-image-filter: blur(44px);
-  --vp-image-height: 326px;
-  --vp-image-width: 580px;
+:root {
   /** 主题颜色 */
 
   /*
@@ -33,10 +24,16 @@
   --vp-c-text-2: rgba(60, 60, 67, 0.78);
   --vp-c-text-3: rgba(60, 60, 67, 0.56);
   */
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(120deg, var(--vp-c-purple-1) 30%, var(--vp-c-brand-2));
+  --vp-home-hero-tagline: var(--vp-c-text-2);
+  --vp-home-hero-text: var(--vp-c-text-1);
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, var(--vp-c-brand-soft) 50%, var(--vp-c-brand-2) 50%);
+  --vp-home-hero-image-filter: blur(44px);
 }
 
 /** 深色模式 */
-[data-theme="dark"] {
+/* [data-theme="dark"] { */
   /*
   --vp-c-brand-1: #8cccd5;
   --vp-c-brand-2: #6aa1b7;
@@ -56,4 +53,52 @@
   --vp-c-text-2: rgba(235, 235, 245, 0.6);
   --vp-c-text-3: rgba(235, 235, 245, 0.38);
   */
+/* } */
+
+/* home hero image */
+.image {
+  margin-top: 60px !important;
+}
+
+/* home features */
+.item {
+  transition: transform 0.3s;
+}
+
+.item:hover {
+  transform: translateY(-5px);
+}
+
+/* faq */
+.posts-container.no-profile {
+  max-width: 1400px !important;
+}
+
+.vp-posts-nav.local .nav-link {
+  max-width: 175px !important;
+}
+
+/* friends */
+.vp-friends {
+  max-width: 1400px !important;
+}
+
+.friends-list {
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+}
+
+.avatar {
+  width: auto;
+  height: auto;
+  padding: 8px;
+  border-radius: 8px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain !important;
 }

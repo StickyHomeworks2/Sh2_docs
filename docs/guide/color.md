@@ -1,16 +1,10 @@
 ---
-title: 外观设置
-icon: ic:twotone-color-lens
-author: ClassisBand
-isOriginal: true
-date: 2025-08-30T00:00:00.000Z
-createTime: 2025/10/26 23:24:40
-permalink: /guide/m9i0taaq/
+title: color
+createTime: 2025/10/27 23:28:52
 ---
-
 ## 基本
 
-### 》界面缩放
+### 界面缩放
 
 当主界面文本过大或过小时，可以调节该设置
 
@@ -18,7 +12,7 @@ permalink: /guide/m9i0taaq/
 
 <br>
 
-### 》背景不透明度
+### 背景不透明度
 
 该设置用于在壁纸遮挡的情况下，调节该设置可以浅露壁纸
 
@@ -30,14 +24,14 @@ permalink: /guide/m9i0taaq/
 
 ## 主题
 
-### 》应用主题
+### 应用主题
 
 该设置用于调节深浅模式
 可以根据喜好调节
 
 <br>
 
-### 》主题色来源
+### 主题色来源
 
 调整该设置将改变以下主题色设置
 

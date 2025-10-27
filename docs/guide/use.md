@@ -1,13 +1,7 @@
 ---
-title: 添加作业
-icon: ic:twotone-feed
-author: ClassisBand
-isOriginal: true
-date: 2025-08-30T00:00:00.000Z
-createTime: 2025/10/26 23:24:40
-permalink: /guide/2jbrbocg/
+title: use
+createTime: 2025/10/27 23:28:52
 ---
-
 ## 添加作业
 
 ::: important 关键功能，若有问题先仔细看一遍！！！

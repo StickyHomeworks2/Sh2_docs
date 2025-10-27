@@ -1,0 +1,11 @@
+:root {
+    --vp-layout-max-width: 1660px;
+}
+
+.content-container {
+  margin: 0 !important;
+}
+
+.vp-doc-container.has-aside .content-container {
+  max-width: 1000px !important;
+}

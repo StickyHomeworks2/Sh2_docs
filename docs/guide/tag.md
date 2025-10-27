@@ -1,13 +1,7 @@
 ---
-title: 标签
-icon: ic:twotone-discount
-author: ClassisBand
-isOriginal: true
-date: 2025-08-30T00:00:00.000Z
-createTime: 2025/10/26 23:24:40
-permalink: /guide/f1f1krbk/
+title: tag
+createTime: 2025/10/27 23:28:52
 ---
-
 ### 添加标签
 
 你可以在 **应用设置/标签** 中找到它

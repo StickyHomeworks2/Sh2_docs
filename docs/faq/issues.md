@@ -1,11 +1,7 @@
 ---
-title: 提交issues
-icon: ic:twotone-bug-report
-author: ClassisBand
-isOriginal: true
-date: 2025-08-30
+title: issues
+createTime: 2025/10/27 23:29:03
 ---
-
 ## 如果你在使用过程中发现了一些Bug
 
 ## 放心，那不是特性
