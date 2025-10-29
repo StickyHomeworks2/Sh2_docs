@@ -7,33 +7,17 @@ config:
       name: StickyHomeworks2
       text: 你的下一款作业贴软件
       tagline: 专为电教委与老师设计的桌面端富文本作业管理工具<br>让作业记录更清晰·学习更有条理
-      image: /logo.png
+      image: /icon.png
       actions:
         - theme: brand
-          text: 开始阅读
+          text: 阅读文档
           icon: lucide:list-start
-          link: /guide/
+          link: /docs/
         - theme: alt
           text: Github
           icon: fa-brands:github
           link: https://github.com/zji573432-cpu/StickyHomeworks2
-  - type: image-text
-    title: 丰富全面的功能
-    image: /preview.png
-    width: 590px
-    list:
-      - title: 📝​富文本编辑​
-        description: 像写Markdown一样记录作业详情，美观优雅
-      - title: 📚​科目分组
-        description: 按学科整理作业，井井有条不混乱
-      - title: 🏷️​智能标签
-        description: 为作业添加标签，精准筛选，快速定位
-      - title: 🗂️​自动清理
-        description: 过期作业自动提醒或清理，界面更清爽
-      - title: 🖼️​导出截图
-        description: 一键导出作业内容为图片，分享或打印超方便
-      - title: 🔍全局缩放
-        description: 界面大小随心调，看清每一个细节
+          
   - type: features
     features:
       - title: 开机自启
@@ -83,6 +67,25 @@ config:
       - title: 更新
         icon: icon-park-twotone:update-rotation
         details: 有了更新，妈妈再也不怕我的Github上不去了
+
+  - type: image-text
+    title: 丰富全面的功能
+    image: /preview.png
+    width: 590px
+    list:
+      - title: 📝​富文本编辑​
+        description: 像写Markdown一样记录作业详情，美观优雅
+      - title: 📚​科目分组
+        description: 按学科整理作业，井井有条不混乱
+      - title: 🏷️​智能标签
+        description: 为作业添加标签，精准筛选，快速定位
+      - title: 🗂️​自动清理
+        description: 过期作业自动提醒或清理，界面更清爽
+      - title: 🖼️​导出截图
+        description: 一键导出作业内容为图片，分享或打印超方便
+      - title: 🔍全局缩放
+        description: 界面大小随心调，看清每一个细节
+  
   - type: text-image
     title: “独一无二” 的自定义功能
     image: /preview.png
@@ -96,4 +99,69 @@ config:
         description: 既不遮挡信息，又能凸显你的壁纸
       - title: 更多
         description: 仍有更多的设置等着你去发现
+  
+  -
+    type: custom
+
 ---
+
+  <h1 align="center">关于</h1>
+  <br/>
+  <CardGrid>
+  <LinkCard title="原开发者" href="https://github.com/HelloWRC">
+    <div class="grid-container">
+      <img 
+        src="https://tc.z.wiki/autoupload/f/FxstySYErTfw4f01iNJcONiO_OyvX7mIgxFBfDMDErs/20251028/q3P2/460X460/HelloWRC.png" 
+        alt="WRC" 
+        width="80"
+      />
+      <div class="text-content">
+        <p align="left">HelloWRC</p>
+        <p><del>软件作者，写代码巨水</del>（划掉）</p>
+      </div>
+    </div>
+  </LinkCard>
+
+<style scoped>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 5px;
+}
+
+.text-content {
+  text-align: right;
+  justify-self: end;
+}
+</style>
+  <LinkCard title="现开发者" href="https://github.com/jizilin6732">
+    <div class="grid-container">
+      <img 
+        src="https://tc.z.wiki/autoupload/f/FxstySYErTfw4f01iNJcONiO_OyvX7mIgxFBfDMDErs/20251028/Whpi/460X460/image.png" 
+        alt="Jinzilin" 
+        width="80"
+      />
+      <div class="text-content">
+        <p align="left">Jizilin6732</p>
+        <p><del>软件现作者，写也代码巨水</del>（划掉）</p>
+      </div>
+    </div>
+  </LinkCard>
+  <LinkCard title="贡献者" href="https://github.com/belugaQAQ">
+    <div class="grid-container">
+      <img 
+        src="https://tc.z.wiki/autoupload/f/FxstySYErTfw4f01iNJcONiO_OyvX7mIgxFBfDMDErs/20251028/F1Go/460X460/%E5%9C%86%E8%A7%92-classisband.jpeg" 
+        alt="ClassIsband" 
+        width="80"
+      />
+      <div class="text-content">
+        <p align="left">ClassIsband</p>
+        <p><del>什么都会一点点但也只会一点点的万能贡献者</del>（划掉）</p>
+      </div>
+    </div>
+  </LinkCard>
+  <LinkCard title="QQ群" href="https://qm.qq.com/q/lpwoRoVay6">
+      <p>这个群组不是特别活跃<br/>平时讨论开发比较多，<del>但是可能有些抽象。</del><br/>喜欢闲聊的用户也可以加入这个群组。</p>
+  </LinkCard>
+  </CardGrid>

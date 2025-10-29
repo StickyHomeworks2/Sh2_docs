@@ -1,6 +1,7 @@
 ---
-title: title
-createTime: 2025/10/27 23:28:52
+title: 基本设置
+icon: ic:twotone-video-label
+createTime: 2025/10/26 23:24:40
 ---
 ### 开机自启
 

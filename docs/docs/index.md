@@ -1,5 +1,6 @@
 ---
 title: 欢迎
+icon: ic:twotone-waving-hand
 createTime: 2025/10/27 23:28:52
 ---
 ### 欢迎来到StickyHomework2文档页面

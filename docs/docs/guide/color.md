@@ -1,6 +1,7 @@
 ---
-title: color
-createTime: 2025/10/27 23:28:52
+title: 外观设置
+icon: ic:twotone-color-lens
+createTime: 2025/10/26 23:24:40
 ---
 ## 基本
 

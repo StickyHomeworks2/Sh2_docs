@@ -9,7 +9,7 @@ export default defineUserConfig({
   description: '',
 
   head: [
-    ['link', { rel: 'icon', type: 'image/png', href: '/logo.png' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/icon.png' }],
   ],
 
   bundler: viteBundler(),
@@ -20,7 +20,7 @@ export default defineUserConfig({
     // hostname: 'https://your_site_url',
 
     /* 文档仓库配置，用于 editLink */
-    docsRepo: 'https://github.com/belugaQAQ/Sh2Newweb',
+    docsRepo: 'https://github.com/sh2-web/Sh2Newweb',
     docsDir: 'docs',
     docsBranch: 'main',
 

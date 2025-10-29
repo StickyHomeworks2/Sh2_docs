@@ -32,7 +32,6 @@ export default defineThemeConfig({
   // createTime: true, // 是否显示文章创建时间
 
   footer: {
-    message: '由 <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a> 搭建',
     copyright: 'MIT 许可协议 | Copyright © 2025 StickyHomeworks',
   },
 

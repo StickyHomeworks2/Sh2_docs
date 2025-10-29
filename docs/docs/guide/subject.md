@@ -1,6 +1,8 @@
 ---
-title: subject
-createTime: 2025/10/27 23:28:52
+title: 科目
+icon: ic:twotone-bookmark
+date: 2025-08-30T00:00:00.000Z
+createTime: 2025/10/26 23:24:40
 ---
 ::: info 科目是使用Sh2的第一步，它将用分类作业
 

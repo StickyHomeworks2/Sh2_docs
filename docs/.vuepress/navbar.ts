@@ -8,10 +8,11 @@ import { defineNavbarConfig } from 'vuepress-theme-plume'
 
 export default defineNavbarConfig([
   {
-    text: '指南',
+    text: '文档',
     icon: 'mi:book',
     items: [
-      { text: '欢迎', icon: 'ion:hardware-chip-outline', link: '/guide/' },
+      { text: '指南', icon: 'line-md:compass-twotone', link: '/docs/guide/' },
+      { text: '帮助我们', icon: 'ion:help-circle-outline', link: '/docs/help/issues' },
     ],
   },
   {
