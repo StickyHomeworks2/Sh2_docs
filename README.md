@@ -1,6 +1,6 @@
-# StickyHomework-Docs
+# StickyHomeworks2-Docs
 
-这个网站使用 [vuepress](https://vuepress.vuejs.org/) 和 [vuepress-theme-plume](https://github.com/pengzhanbo/vuepress-theme-plume) 搭建
+本仓库为 [StickyHomeworks2](https://github.com/StickyHomeworks2/StickyHomeworks2) 文档仓库，使用 [vuepress](https://vuepress.vuejs.org/) 和 [vuepress-theme-plume](https://github.com/pengzhanbo/vuepress-theme-plume) 搭建
 
 ## 安装
 
