@@ -9,3 +9,7 @@
 .vp-doc-container.has-aside .content-container {
   max-width: 1000px !important;
 }
+
+.vp-page {
+  padding: 48px 150px !important;
+}

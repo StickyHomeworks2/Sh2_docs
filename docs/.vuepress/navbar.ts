@@ -11,8 +11,7 @@ export default defineNavbarConfig([
     text: '文档',
     icon: 'mi:book',
     items: [
-      { text: '指南', icon: 'line-md:compass-twotone', link: '/docs/guide/' },
-      { text: '帮助我们', icon: 'ion:help-circle-outline', link: '/docs/help/issues' },
+      { text: '指南', icon: 'line-md:compass-twotone', link: '/doc/guide/' },
     ],
   },
   {
