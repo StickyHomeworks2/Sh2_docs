@@ -6,7 +6,6 @@ import Contributors from './theme/components/Contributors.vue'
 // import NpmBadgeGroup from 'vuepress-theme-plume/features/NpmBadgeGroup.vue'
 // import Swiper from 'vuepress-theme-plume/features/Swiper.vue'
 import './theme/styles/custom.css'
-import './theme/styles/index.css'
 
 export default defineClientConfig({
   enhance({ app }) {

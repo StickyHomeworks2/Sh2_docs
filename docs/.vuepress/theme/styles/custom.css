@@ -1,4 +1,5 @@
 :root {
+  --vp-layout-max-width: 1660px;
   /** 主题颜色 */
 
   /*
@@ -67,14 +68,21 @@
 .vp-home-doc-hero .text {
   font-size: 2.7rem !important;
 }
-
-/* home features */
 .item {
   transition: transform 0.3s;
 }
 
 .item:hover {
   transform: translateY(-5px);
+}
+
+/* doc */
+.content-container {
+  margin: 0 !important;
+}
+
+.vp-doc-container.has-aside .content-container {
+  max-width: 1000px !important;
 }
 
 /* faq */
@@ -89,17 +97,38 @@
 /* friends */
 .vp-friends {
   max-width: 1400px !important;
+  padding: 0 !important
+}
+
+@media screen and (max-width: 768px) {
+  .vp-friends {
+    padding-top: 20px !important;
+  }
+}
+
+.vp-friends-group {
+  padding-top: 0 !important;
+}
+
+.vp-friend {
+  border-radius: 16px !important;
 }
 
 .friends-list {
   grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
 }
 
+@media screen and (max-width: 768px) {
+  .friends-list {
+    grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+  }
+}
+
 .avatar {
   width: auto;
   height: auto;
   padding: 8px;
-  border-radius: 8px !important;
+  border-radius: 16px !important;
   display: flex;
   align-items: center;
   justify-content: center;

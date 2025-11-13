@@ -11,8 +11,4 @@ list:
     link: https://github.com/awesome-iwb/awesome-iwb
     avatar: /Aiwb.png
     desc: 为广大电教倾情撰写，让班级大屏更好用！
-  - name: Awesome-Class-Softwares
-    link: https://github.com/Jursin/Awesome-Class-Softwares
-    avatar: https://nav.jursin.top/acs.png
-    desc: 适用于班级一体机的优质软件合集🌟
 ---
