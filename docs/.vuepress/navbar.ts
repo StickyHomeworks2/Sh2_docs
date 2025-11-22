@@ -10,9 +10,7 @@ export default defineNavbarConfig([
   {
     text: '文档',
     icon: 'mi:book',
-    items: [
-      { text: '指南', icon: 'line-md:compass-twotone', link: '/doc/guide/' },
-    ],
+    link: '/doc/guide/',
   },
   {
     text: '常见问题',

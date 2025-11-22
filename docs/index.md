@@ -29,9 +29,9 @@ config:
       - title: 窗口标题
         icon: ic:twotone-font-download
         details: 自定义软件顶部标题，显示更明了
-      - title: 最大列宽度
-        icon: ic:twotone-video-label
-        details: 自定义每列作业的最大宽度，超过时自动换行
+      - title: 更新
+        icon: material-symbols:update-rounded
+        details: 自动下载更新包，不落下新功能
       - title: 应用主题
         icon: ic:twotone-nightlight
         details: 支持切换深色/浅色主题

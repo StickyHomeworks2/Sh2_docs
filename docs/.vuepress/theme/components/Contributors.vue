@@ -21,6 +21,13 @@
                 <p>ClassIsband</p>
             </div>
         </LinkCard>
+        <LinkCard title="特别鸣谢" href="https://github.com/Jursin">
+            <div class="card-content">
+                <img src="/avatar/Jursin.jpg"
+                    alt="Jursin" width="80" />
+                <p>Jursin</p>
+            </div>
+        </LinkCard>
     </CardGrid>
 </template>
 

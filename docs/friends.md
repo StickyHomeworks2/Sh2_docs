@@ -11,4 +11,8 @@ list:
     link: https://github.com/awesome-iwb/awesome-iwb
     avatar: /Aiwb.png
     desc: 为广大电教倾情撰写，让班级大屏更好用！
+  - name: Iconify
+    link: https://iconify.design/
+    avatar: /Iconify.png
+    desc: 开源图标集的家园
 ---

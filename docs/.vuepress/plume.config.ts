@@ -34,7 +34,7 @@ export default defineThemeConfig({
 
   footer: {
     message: '使用 <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a> 搭建',
-    copyright: 'MIT 许可协议 | Copyright © 2025 <a href="https://github.com/StickyHomeworks2" target="_blank">StickyHomeworks</a>',
+    copyright: 'MIT 许可协议 | Copyright © 2025 <a href="https://github.com/StickyHomeworks2" target="_blank">StickyHomeworks2</a>',
   },
 
   navbar,
