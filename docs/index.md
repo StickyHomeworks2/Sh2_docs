@@ -31,7 +31,7 @@ config:
         details: 自定义软件顶部标题，显示更明了
       - title: 更新
         icon: material-symbols:update-rounded
-        details: 自动下载更新包，不落下新功能
+        details: 自动下载更新包，不错失新功能
       - title: 应用主题
         icon: ic:twotone-nightlight
         details: 支持切换深色/浅色主题

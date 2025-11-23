@@ -24,6 +24,7 @@ export default defineUserConfig({
     docsDir: 'docs',
     docsBranch: 'main',
 
+    llmstxt: true,
     /* 页内信息 */
     // editLink: true,
     // lastUpdated: true,
